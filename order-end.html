@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+
+<!-- .svg -->
+<link href="img/" rel="icon" type="image/svg+xml">
+<!-- .png -->
+<link href="img/" rel="apple-touch-icon" sizes="128x128">
+<!-- .ico -->
+<link href="img/" sizes="16x16 32x32 64x64 128x128" rel="icon" type="image/vnd.microsoft.icon">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Дякуємо! | Pizzzza</title>
+
+<link rel="stylesheet" href="css/fonts.min.css">
+<link rel="stylesheet" href="css/default.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="popup popup-day-end">
+	<div class="popup__body">
+		<div class="popup__content">
+			<div class="popup__title">Привіт! Наш робочий день завершенно</div>
+			<div class="popup__subtitle">Але ти можеш зробити передзамовлення і вже о 10:00 ми почнемо готувати смачну піцу</div>
+			<a href="" class="popup__button">передзамовлення</a>
+		</div>
+	</div>
+</div>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__top" data-da="burger-content, last, 768">
+		<div class="header__container header__container-top _container">
+			<ul class="header__top-menu">
+				<li><a href="about-us">Про нас</a></li>
+				<li><a href="delivery-n-payment">Доставка та оплата</a></li>
+				<li><a href="reviews">Відгуки/Залишити відгук</a></li>
+				<li><a href="privacy-policy">Політика конфіденційності</a></li>
+				<li><a href="public-contract">Публічний договір</a></li>
+				<li><a href="contacts">Контакти</a></li>
+			</ul>
+			<ul class="header__lang">
+				<li class="_current"><a href="">Укр</a></li>
+				<li><a href="">Рус</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="header__bottom">
+		<div class="header__container header__container-bottom _container">
+			<div class="header__burger">
+				<span></span>
+			</div>
+			<div class="burger-content"></div>
+			<a href="/" class="header__logo">
+				<div><img src="img/illustrations/logo.svg" alt="Логотип"></div>
+				<div>
+					<p>Безкоштовна</p>
+					<p>доставка</p>
+				</div>
+			</a>
+			<ul class="header__bottom-menu" data-da="burger-content, first, 768">
+				<li><a href="/#pizza">ПIЦА</a></li>
+				<li><a href="/#combo">Комбо</a></li>
+				<li><a href="/#drinks">Напої</a></li>
+			</ul>
+			<div data-dropdown="mobile" class="header__phone header__actions">
+				<div><img src="img/icons/mobile.svg" alt="Іконка телефону"></div>
+				<div class="header__actions-value">066 302 30 30<p><img src="img/icons/arrowdown-black.svg" alt="стрілочка вниз"></p></div>
+				<div class="header__popup popup header__popup-mobile" data-dropdown="mobile">
+					<ul class="header__contacts">
+						<li><a href=""><img src="img/icons/mts.png" alt="Мтс"><span>066 302 30 30</span></a></li>
+						<li><a href=""><img src="img/icons/mylifecell.png" alt="My lifeself"><span>063 302 30 30</span></a></li>
+						<li><a href=""><img src="img/icons/kyivstar.png" alt="Киевстар"><span>068 302 30 30</span></a></li>
+					</ul>
+					<ul class="header__socials">
+						<li><a href=""><img src="img/icons/viber.svg" alt="Viber"></a></li>
+						<li><a href=""><img src="img/icons/telergram.svg" alt="Telegram"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div data-dropdown="cart" class="header__cart header__actions">
+				<div><img src="img/icons/pizza.svg" alt="Іконка коробок піци"><label>3</label></div>
+				<div class="header__actions-value">1200.00 грн</div>
+			</div>
+		</div>
+	</div>
+</header>
+<div data-dropdown="cart" class="cart popup">
+	<div class="cart__area"></div>
+	<div class="cart__content">
+		<div class="cart__close"></div>
+		<h2>КОРЗИНА</h2>
+		<ul>
+			<li class="cart-item">
+				<div class="cart-item__picture">
+					<img src="img/pizzas/pizza1.png" alt="Пицца">
+				</div>
+				<div class="cart-item__main">
+					<div class="cart-item__name">Маргарита</div>
+					<div class="cart-item__actions">
+						<div class="cart-item__num">
+							<div class="cart-item__minus">-</div>
+							<div class="cart-item__val">1</div>
+							<div class="cart-item__plus">+</div>
+						</div>
+						<div class="cart-item__price">99.99 грн</div>
+					</div>
+				</div>
+				<div class="cart-item__remove">
+					<img src="img/icons/trash.svg" alt="Удалить">
+				</div>
+			</li>
+			<li class="cart-item">
+				<div class="cart-item__picture">
+					<img src="img/pizzas/pizza2.png" alt="Пицца">
+				</div>
+				<div class="cart-item__main">
+					<div class="cart-item__name">Маргарита</div>
+					<div class="cart-item__actions">
+						<div class="cart-item__num">
+							<div class="cart-item__minus">-</div>
+							<div class="cart-item__val">1</div>
+							<div class="cart-item__plus">+</div>
+						</div>
+						<div class="cart-item__price cart-item__price_new" data-old-price="99.99 грн"><div><span>99.99 грн</span></div></div>
+					</div>
+				</div>
+				<div class="cart-item__remove">
+					<img src="img/icons/trash.svg" alt="Удалить">
+				</div>
+			</li>
+			<li class="cart-item">
+				<div class="cart-item__picture">
+					<img src="img/pizzas/pizza3.png" alt="Пицца">
+				</div>
+				<div class="cart-item__main">
+					<div class="cart-item__name">Маргарита</div>
+					<div class="cart-item__actions">
+						<div class="cart-item__num">
+							<div class="cart-item__minus">-</div>
+							<div class="cart-item__val">1</div>
+							<div class="cart-item__plus">+</div>
+						</div>
+						<div class="cart-item__price cart-item__price_new" data-old-price="99.99 грн"><div><span>919.99 грн</span></div></div>
+					</div>
+				</div>
+				<div class="cart-item__remove">
+					<img src="img/icons/trash.svg" alt="Удалить">
+				</div>
+			</li>
+		</ul>
+		<div class="cart__results">
+			<div class="cart__total"><span>Разом: </span><span>289.99 грн</span></div>
+			<div class="cart__actions">
+				<div class="cart__column">
+					<div class="cart__continue">продовжити купувати</div>
+				</div>
+				<div class="cart__column">
+					<a href="order" class="cart__order">ОФОРМИТИ ЗАМОВЛЕННЯ</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		<main class="page">
+			<section class="order-complete">
+				<div class="order-complete__title title">
+					<span>Дякуємо!</span>
+				</div>
+				<div class="order-complete__content">
+					<div class="order-complete__status">Ваше замовлення №<span>0000</span> прийнято, дякуємо!</div>
+					<div class="order-complete__order-info">
+						<div class="order-complete__stat order-complete__stat-label">Ім’я Прізвище:</div>
+						<div class="order-complete__stat order-complete__stat-val">Ім’я Прізвище</div>
+						<div class="order-complete__stat order-complete__stat-label">Сума замовлення:</div>
+						<div class="order-complete__stat order-complete__stat-val">450 грн.</div>
+						<div class="order-complete__stat order-complete__stat-label">Спосіб доставки:</div>
+						<div class="order-complete__stat order-complete__stat-val">самовиніс</div>
+						<div class="order-complete__stat order-complete__stat-label">Спосіб оплати:</div>
+						<div class="order-complete__stat order-complete__stat-val">готівкою при отриманні</div>
+					</div>
+				</div>
+			</section>
+			<div class="ill-pattern">
+	<div class="ill-pattern__pattern"></div>
+	<div class="ill-pattern__picture">
+		<img src="img/another-pictures/pizza-box.png" alt="">
+	</div>
+</div>
+		</main>
+		<footer class="footer">
+	<div class="footer__top">
+		<div class="footer__container footer__container_top _container">
+			<div class="footer__column footer__column_1">
+				<a href="/" class="footer__logo">
+					<img src="img/illustrations/logo-footer.svg" alt="Логотип">
+				</a>
+				<p>
+					<a href=""><img src="img/another-pictures/visa.png" alt="Visa"></a>
+					<a href=""><img src="img/illustrations/mastercard.svg" alt="Mastercard"></a>
+				</p>
+			</div>
+			<div class="footer__column footer__column_2">
+				<ul class="footer__main-menu" data-da="footer__column_3, first, 768">
+					<li><a href="/#pizza">Піца</a></li>
+					<li><a href="/#combo">Комбо</a></li>
+					<li><a href="/#drinks">Напої</a></li>
+				</ul>
+			</div>
+			<div class="footer__column footer__column_3">
+				<ul class="footer__sub-menu">
+					<li><a href="about-us">Про нас</a></li>
+					<li><a href="delivery-n-payment">Доставка та оплата</a></li>
+					<li><a href="reviews">Відгуки/Залишити відгук</a></li>
+					<li><a href="privacy-policy">Політика конфіденційності</a></li>
+					<li><a href="public-contract">Публічний договір</a></li>
+					<li><a href="contacts">Контакти</a></li>
+				</ul>
+				<ul class="footer__lang">
+					<li class="_current"><a href="">Укр</a></li>
+					<li><a href="">Рус</a></li>
+				</ul>
+			</div>
+			<div class="footer__column footer__column_4">
+				<ul class="footer__contacts">
+					<li><a href=""><img src="img/icons/mts.png" alt="Мтс"><span>066 302 30 30</span></a></li>
+					<li><a href=""><img src="img/icons/mylifecell.png" alt="My lifeself"><span>063 302 30 30</span></a></li>
+					<li><a href=""><img src="img/icons/kyivstar.png" alt="Киевстар"><span>068 302 30 30</span></a></li>
+				</ul>
+				<ul class="footer__socials">
+					<li><a href=""><img src="img/icons/viber.svg" alt="Viber"></a></li>
+					<li><a href=""><img src="img/icons/telergram.svg" alt="Telegram"></a></li>
+				</ul>
+				<p class="footer__advanced footer__email">
+					<a href="mailto:pizza@gmail.com" class="auto-email">pizza@gmail.com</a>
+				</p>
+				<div class="footer__advanced footer__timetable">
+					<p>Працюємо</p>
+					<p>з 10 до 22 без вихідних</p>
+				</div>
+				<ul class="footer__socials">
+					<li><a href=""><img src="img/icons/inst.svg" alt="Instagram"></a></li>
+					<li><a href=""><img src="img/icons/fb.svg" alt="Facebook"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer__bottom">
+		<div class="footer__container footer__container_bottom _container">
+			<div class="footer__copywrite">Копирайт &copy; 2021 PIZZAZZA. Всі права захищені.</div>
+			<div class="footer__apelsin"><img src="img/another-pictures/logo-apelsun.png" alt="Апельсин"></div>
+		</div>
+	</div>
+</footer>
+	</div>
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
